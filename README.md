@@ -2,9 +2,9 @@
 Thank you so much MoolTatvam team for this Assignment, I have tried my best to match my output with your given design and I have also tried to make it responsive as much as possible.
 
 ## Tech and tools used:
-Front-end library: TailwindCSS
-For icons: Fontawesome icon
-For Background image: Freepik
+-> Front-end library: TailwindCSS
+-> For icons: Fontawesome icon
+-> For Background image: Freepik
 
 ## Steps:
 1. Download Zip Folder
