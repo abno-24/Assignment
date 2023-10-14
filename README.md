@@ -1,17 +1,17 @@
 # Assignment
-### Thank you so much MoolTatvam team for this Assignment, I have tried my best to match my output with your given design and I have also tried to make it responsive as much as possible.
+Thank you so much MoolTatvam team for this Assignment, I have tried my best to match my output with your given design and I have also tried to make it responsive as much as possible.
 
 ## Tech and tools used:
-### Front-end library: TailwindCSS
-### For icons: Fontawesome icon
-### For Background image: Freepik
+Front-end library: TailwindCSS
+For icons: Fontawesome icon
+For Background image: Freepik
 
 ## Steps:
-### 1. Download Zip Folder
-### 2. In the root directory run the "npm i" command to download all the dependencies
-### 3. In the root directory run "npm run dev" This command will run tailwindcss
+1. Download Zip Folder
+2. In the root directory run the "npm i" command to download all the dependencies
+3. In the root directory run "npm run dev" This command will run tailwindcss
 
-### Then with the help of a live server extension, you can have a look at the output, I hope you'll like it, Below are some screenshots of these assignments:
+Then with the help of a live server extension, you can have a look at the output, I hope you'll like it, Below are some screenshots of these assignments:
 
 ## Desktop View:
 ![Screenshot 2023-10-15 012006](https://github.com/abno-24/Assignment/assets/68058874/39dbb037-01e4-4f96-8cb4-d73c26e13c5a)
