@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>MoolTatvam | Assignment</title>
+</head>
+<body class="font-poppins scroll-smooth">
+    <!-- Start of the Header -->
+    <header>
+        <nav class="fixed py-1 px-16 min-h-[80px] flex justify-between items-center w-full bg-white border-b-[3px] border-gray-100 max-lg:px-8">
+            <div>
+                <h2 class="text-3xl text-gray-500">MoolTatvam</h2>
+            </div>
+            <ul class="nav-links flex justify-center items-center gap-8 max-lg:block max-lg:absolute top-[-500px] max-lg:bg-white max-lg:w-full max-lg:left-0 max-lg:px-10 max-lg:py-5 max-lg:z-auto transition-all duration-1000 ease-in">
+                <li>
+                    <a href="#home" class="text-curious-blue li-md">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="text-slate-500 li-md">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="text-slate-500 li-md">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="text-slate-500 li-md">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#team" class="text-slate-500 li-md">Team</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="text-slate-500 li-md">Pricing</a>
+                </li>
+                <li>
+                    <select id="dd" class="bg-transparent cursor-pointer text-slate-500 li-md">
+                        <option value="Drop Down"selected>Drop Down</option>
+                        <option value="Item 1">Item 1</option>
+                        <option value="Item 2">Item 2</option>
+                        <option value="Item 3">Item 3</option>
+                    </select>
+                </li>
+                <li>
+                    <a href="#contact" class="text-slate-500 li-md">Contact</a>
+                </li>
+                <li class="bg-btn py-2 px-4 rounded-md cursor-pointer max-lg:w-[28%] text-center li-md">
+                    <a href="#get-started" class="text-white">Get Started</a>
+                </li>
+            </ul>
+            <div class="hidden max-lg:block cursor-pointer">
+                <ion-icon name="menu" onclick="onToggleMenu(this)" class="text-3xl"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <!-- End of the Header -->
+
+    <!-- Start of the Hero Section -->
+    <section style="background-image: url(./imgs/bgImg.jpg);" class="hero flex flex-col justify-center items-center pt-[10rem] pb-[5rem]">
+        <div>
+            <h1 class="text-center text-6xl text-dark-blue font-bold leading-[80px] max-lg:leading-[60px] max-lg:text-5xl">
+                One Page Tailwind <br> Website Template
+            </h1>
+            <p class="text-center text-gray-500 text-2xl my-2 max-lg:text-xl max-lg:mt-3">
+                We are team of talented designers
+            </p>
+            <div class="bg-btn py-4 px-8 rounded-md mt-8 max-w-[40%] m-auto text-center cursor-pointer">
+                <a href="#" class="text-white">
+                    Get Started
+                </a>
+            </div>
+        </div>
+
+        <!-- Start of the cards -->
+        <div class="flex max-lg:flex-wrap justify-between items-center gap-10 mt-20 mx-auto px-16 max-lg:px-8">
+            <div class="card max-md:max-w-full">
+                <object data="./icons/layers.svg" width="30" height="30"></object>
+                <h3 class="card-title">Lorem Ipsum</h3>
+                <p class="text-slate-500">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Sit provident temporibus numquam.
+                </p>
+            </div>
+            <div class="card max-md:max-w-full">
+                <object data="./icons/colorPallate.svg" width="30" height="30"></object>
+                <h3 class="card-title">Sed ut perspiciatis</h3>
+                <p class="text-slate-500">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Sit provident temporibus numquam.
+                </p>
+            </div>
+            <div class="card max-md:max-w-full">
+                <object data="./icons/square.svg" width="30" height="30"></object>
+                <h3 class="card-title">Magni Dolores</h3>
+                <p class="text-slate-500">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Sit provident temporibus numquam.
+                </p>
+            </div>
+            <div class="card max-md:max-w-full">
+                <object data="./icons/fingerprint.svg" width="30" height="30"></object>
+                <h3 class="card-title">Nemo Enim</h3>
+                <p class="text-slate-500">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Sit provident temporibus numquam.
+                </p>
+            </div>
+        </div>
+        <!-- End of the cards -->
+    </section>
+    <!-- End of the Hero Section -->
+
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[80px]');
+        }
+    </script>
+</body>
+</html>
