@@ -1,0 +1,26 @@
+Thank you soo much MoolTatvam team for this Assignment, I have tried my best to match my output with your given design
+and i have also tried to make it responsive as much as possible.
+
+Steps:
+1. Download Zip Folder
+2. in the root directory run "npm i" command to download all the dependencies
+3. in the root directory run "npm run dev" this command will run tailwindcss
+
+then with the help of live server extension you can have a look on output, i hope you'll like it
+
+Below are some screenshots of these assignments:
+
+Desktop View: 
+<img src="./imgs/screenshots/desktop.png" alt="">
+
+<img src="./imgs/screenshots/desktopS.png" alt="">
+
+Medium Device View: like tablets and ipads
+<img src="./imgs/screenshots/firstMd.png" alt="">
+<img src="./imgs/screenshots/secondMd.png" alt="">
+
+Mobile View:
+<img src="./imgs/screenshots/MobView.png" alt="">
+
+Navigation look of Mobile View:
+<img src="./imgs/screenshots/MobNav.png" alt="">
