@@ -3,7 +3,7 @@ Thank you so much MoolTatvam team for this Assignment, I have tried my best to m
 
 ## Tech and tools used:
 - Front-end library: TailwindCSS
-- For icons: Fontawesome icon
+- For icons: ionicon & iconfinder
 - For Background image: Freepik
 
 ## Steps:
